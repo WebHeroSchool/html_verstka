@@ -1,0 +1,51 @@
+.header__title {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  opacity: 0.3;
+}
+.header__quote{
+  border-style: dotted;
+  font-size: 20px;
+  font-style: italic;
+}
+.body {
+  width: 500 px;
+}
+.mainblock {
+  float: left;
+  width: 300px;
+}
+.body__title {
+  font-style: oblique;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  border: 2px outset red;
+}
+.body__description {
+  background: yellow;
+  padding-left: 20px;
+  padding-right: 20px;
+  word-spacing: 1px;
+}
+.body__continuation {
+  padding-left: 20px;
+  text-decoration: underline;
+}
+.body__button {
+  cursor: help;
+}
+.aside {
+  float: right;
+  width: 180px;
+}
+.aside__list {
+  list-style-type: circle;
+}
+.footer {
+  background: #00FFFF;
+  margin-top: 20px;
+  clear: left;
+  box-shadow: 5px 3px 4px 2px black;
+}
