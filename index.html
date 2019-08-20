@@ -1,62 +1,41 @@
 ﻿<!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Привет мир!</title>
-</head>
-<header>
-  <h1> Все прекрасно в жизни</h1>
-  <button>
-  Полностью согласен
-  </button>
+  <head>
+    <meta charset="UTF-8">
+    <title>Привет мир!</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <header class='header'>
+    <h1 class='header__title'> Все прекрасно в жизни</h1>
+    <blockquote class='header__quote'>Всё, что есть прекрасного в этой жизни, либо аморально, либо незаконно, либо приводит к ожирению.
+    Оскар Уайльд </blockquote>
+    <button class='header__button'> Полностью согласен </button>
   </header>
-<body>
-  <div>
-    <h3>
-    Счастье
-    </h3>
+  <body class='body'>
+  <div class='mainblock'>
+    <h3 class='body__title'>СЧАСТЬЕ</h3>
+    <article class='body__description'> Мы разучились ценить минутки <a href=''>счастья</a>, перестали ощущать его вкус и лишь сокрушаясь, спрашиваем, в чём <a href=''>счастье</a> человека, не понимая, что оно заключено в нас самих. В умении видеть золотую середину, расти, развиваться, любить и быть любимыми. <a href=''>Счастье</a>  заключено в каждом моменте жизни, ведь каждый этот момент – это возможность изменить себя и мир к лучшему.</article>
+      <span class='body__continuation'> Читать  дальше
+        <button class='body__button'> здесь</button>
+      </span>
   </div>
-<div class='wrapper'>
-<style>
- .wrapper {
- width: 430px
- }
-</style>
-<aside>
-  <div class='right_block'>
- <style>
- .right_block {
-  float: right;
-  width: 200px;
-  }
-</style>
-    <p><b>Что по вашему счастье?</b></p>
-    <p><input type='radio' value='a1'>Любовь<br>
-    <input type="radio" value="a2">Деньги<br>
-    <input type="radio" value="a3">Секс</p>
-    <p><input type="submit"></p>
-   </form>
- </div>
-</aside>
-  <article>
-  <div class='left_block'>
- <style>
- .left_block {
-  float: right;
-  width: 200px;
-  }
-</style>
-  Мы разучились ценить минутки счастья, перестали ощущать его вкус и лишь сокрушаясь, спрашиваем, в чём счастье человека, не понимая, что оно заключено в нас самих. В умении видеть золотую середину, расти, развиваться, любить и быть любимыми.Счастье заключено в каждом моменте жизни, ведь каждый этот момент – это возможность изменить себя и мир к лучшему.
-  </div> 
-  </article>
-  </div>
- </body>
- <footer>
-   <div>
-     <p><b>Напиши что ты думаешь на эту тему</b></p>
-     <p><input value="Введите текст"></p>
-     <p><input type="submit" value="Отправить">
-     <input type="reset" value="Очистить"></p>
-    </div>
+      <aside class='aside'>
+        <h3 class='aside__title'>Как добиться счастья?</h3>
+          <ul class='aside__list'>
+            <li>Отмечать все хорошее, что с тобой происходит;</li>
+            <li>Выделять позитивные моменты;</li>
+            <li>Любить людей.</li>
+          </ul>
+      </aside>
+   </body>
+ <footer class='footer'>
+     <h3 class='footer__title'>Напиши, что ты думаешь на эту тему</h3>
+     <p class='footer__description'>Но учти, что твое мнение никому неинтересно</p>
+     <p> И еще не думай, что ты тут самый умный </p>
+       <form>
+         <input value='' class='footer__input_text'>
+         <input type='submit'  class='footer__input_submit'>
+         <input type='reset' value='Очистить' class='footer__input_reset'>
+       </form>
  </footer>
 </html>
