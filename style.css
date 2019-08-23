@@ -1,0 +1,47 @@
+.header__title {
+  font-family: 'Marck Script', cursive;
+  color: red;
+  text-align: center;
+  font-size: 40px;
+}
+.header__quote{
+  border-style: dotted;
+  font-size: 20px;
+  font-style: italic;
+}
+.body {
+ font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.mainblock {
+  float: left;
+  width: 300px;
+}
+.body__title {
+  font-style: oblique;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  border: 2px outset red;
+}
+.body__description {
+  background: yellow;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.body__continuation {
+  padding-left: 20px;
+  text-decoration: underline;
+}
+.body__button {
+  cursor: help;
+}
+.aside {
+  float: right;
+  width: 180px;
+}
+.aside__list {
+  list-style-type: circle;
+}
+.footer {
+  clear: left;
+}
